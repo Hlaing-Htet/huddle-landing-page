@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Rubik:wght@300;400;500;600&display=swap');
+$font-family-sans-serif: 'Open Sans', sans-serif;
+$theme-colors: (
+    "primary": hsl(322, 100%, 66%),
+    "secondary":hsl(321, 100%, 78%),
+    "info":hsl(207, 100%, 98%),
+    "warning":hsl(192, 100%, 9%),
+);
+$btn-border-radius: 50px;
+$btn-padding-x: 25px;
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.mt-6 {
+    margin-top: 200px;
+}
+
+.fs-7 {
+    font-size: 90px;
+}
+
+.my-6 {
+    margin: 120px auto;
+}
+
+@media screen and (max-width:400px) {
+    .mt-6 {
+        margin-top: 130px;
+    }
+
+    .fs-7 {
+        font-size: 70px;
+    }
+}
